@@ -11,6 +11,10 @@
 */
 #ifndef __UCLIBRY_UTILS_H
 #define __UCLIBRY_UTILS_H
+
+#ifdef	__cplusplus
+extern "C" {
+#endif
 /******************************************************************************/
 
 /* Include files **************************************************************/
@@ -75,5 +79,9 @@ void Utils_setUInt16ToMem(void* mem, uint16_t val);
 void Utils_setUInt32ToMem(void* mem, uint32_t val);
 
 /******************************************************************************/
+#ifdef	__cplusplus
+}
+#endif
+
 #endif  // __UCLIBRY_UTILS_H
 /* End of file ****************************************************************/

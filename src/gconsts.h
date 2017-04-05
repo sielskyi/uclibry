@@ -11,6 +11,10 @@
 */
 #ifndef __UCLIBRY_GCONST_H
 #define __UCLIBRY_GCONST_H
+
+#ifdef	__cplusplus
+extern "C" {
+#endif
 /******************************************************************************/
 #define DAYS_IN_YEAR			365UL		///< Days in a year
 #define DAYS_IN_YEAR_LEAP		366UL		///< Days in a leap year
@@ -98,4 +102,8 @@
 #define INT64_BYTES_NUM			8U						///< Bytes in Int64
 
 /******************************************************************************/
+#ifdef	__cplusplus
+}
+#endif
+
 #endif	// __UCLIBRY_GCONST_H
